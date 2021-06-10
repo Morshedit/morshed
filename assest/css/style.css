@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: candara; }
+
+.box, .box .fun {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  cursor: pointer;
+  margin: 100px auto 0;
+  transition: .5s; }
+  .box:nth-child(1):hover, .box .fun:nth-child(1):hover {
+    background-color: black;
+    border-radius: 50%; }
+  .box:nth-child(2):hover, .box .fun:nth-child(2):hover {
+    background-color: yellow;
+    border-radius: 50%; }
+  .box:nth-child(3):hover, .box .fun:nth-child(3):hover {
+    background-color: black;
+    border-radius: 50%; }
+  .box:nth-child(4):hover, .box .fun:nth-child(4):hover {
+    background-color: gray;
+    border-radius: 50%; }
+  .box:nth-child(5):hover, .box .fun:nth-child(5):hover {
+    background-color: red;
+    border-radius: 50%; }
+  .box .fun {
+    background-color: yellow; }
+    .box .fun:after {
+      content: '';
+      display: block;
+      clear: both; }
+
+/*# sourceMappingURL=style.css.map */
